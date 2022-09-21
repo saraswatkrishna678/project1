@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        tr{border: 3px solid darksalmon;
+            text-align: center;
+        }
+      #main  th{border: 3px solid red;
+          padding: 3px;
+            text-align: center;
+        }
+        td{border: 3px solid darkgray;
+            text-align: justify;
+        }
+        #marks td{border: 3px solid chartreuse;
+
+          text-align: center;
+        }
+        #cat td{border: 3px solid chartreuse;
+          text-align: center;
+        }
+        #cat th{
+          padding: 2px;
+            border: 3px solid red;
+        }
+        table{
+          background-color:
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <table style="background-color:blue;border: 5px solid black">
+        <tr id="main">
+            <th>Sr.No</th>
+            <th>Course</th>
+            <th>Subject</th>
+            <th colspan="2">
+              Marks</th>
+                <!-- <tr>
+                    <th>Internal</th>
+                    <th>External</th>
+                </tr> -->
+            <th colspan="2">Category</th>
+            <th>Practical/Theory</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>MBA</td>
+            <td>
+            <table>
+<!--              <tr>-->
+<!--                <td>  - </td>-->
+<!--              </tr>-->
+               <tr> <td>Management Accounting</td></tr>
+               <tr><td>Information Technology</td></tr>
+                <tr><td>Basics of Marketing</td></tr>
+                <tr><td>E-Commerce</td></tr>
+            </table>
+            </td>
+            <td>
+                <table>
+                    <tr aria-colspan="2"><th>Internal</th>
+<!--                        <th>External</th>-->
+                    </tr>
+                    <tr>
+                      <td>30</td>
+                      <td>70</td>
+                    </tr>
+                    <tr>
+                      <td>30</td>
+                      <td>70</td>
+                    </tr>
+                    <tr>
+                      <td>30</td>
+                      <td>70</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td> -</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+              <table id="cat">
+                <tr aria-colspan="2">
+<!--                    <th>Internal</th>-->
+                    <th>External</th>
+                </tr>
+                <tr>
+                  <td>70</td>
+                  <td>&#10003;</td>
+                </tr>
+                <tr>
+                  <td>70</td>
+                  <td>&#10003;</td>
+                </tr>
+                <tr>
+                  <td>70</td>
+                  <td>&#10003;</td>
+                </tr>
+                <tr>
+                  <td>-</td>
+                  <td> -</td>
+                </tr>
+              </table>
+            </td>
+            <td> <table>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td>T and P</td>
+              </tr>
+              <tr>
+                <td>Theory</td>
+              </tr>
+              <tr>
+                <td>Theory</td>
+              </tr>
+              <tr>
+                <td>T and P</td>
+              </tr>
+            </table> </td>
+        </tr>
+        <tr>
+              <td>2</td>
+              <td>MCM</td>
+              <td>
+              <table>
+                <tr>
+                  <td>  - </td>
+                </tr>
+
+                  <!-- <tr> <td>-</td>
+                </tr> -->
+                 <tr> <td>Visual Basics</td></tr>
+                 <tr><td>Internet Technology</td></tr>
+                  <tr><td>Network Technology</td></tr>
+                  <tr><td>VB.Net</td></tr>
+                  <tr>
+                    <td>Linux</td>
+                  </tr>
+                  <tr>
+                    <td>ISA</td>
+                  </tr>
+              </table>
+              </td>
+              <td>
+                  <table id="marks">
+                      <tr><th>Internal</th>
+                          <th>External</th>
+                      </tr>
+                      <tr>
+                        <td>30</td>
+                        <td>70</td>
+                      </tr>
+                      <tr>
+                        <td>30</td>
+                        <td>70</td>
+                      </tr>
+                      <tr>
+                        <td>30</td>
+                        <td>70</td>
+                      </tr>
+                      <tr>
+                        <td>30</td>
+                        <td> 70</td>
+                      </tr>
+                      <tr>
+                        <td>30</td>
+                        <td> 70</td>
+                      </tr>
+                      <tr>
+                        <td>50</td>
+                        <td> -</td>
+                      </tr>
+                  </table>
+              </td>
+              <td>
+                <table id="cat">
+                  <tr><th>Internal</th>
+                      <th>External</th>
+                  </tr>
+                  <tr>
+                    <td>-</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>-</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>-</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>-</td>
+                    <td> &#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>-</td>
+                    <td> &#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>&#10003;</td>
+                    <td> -</td>
+                  </tr>
+                </table>
+              </td>
+              <td> <table style="text-align:center;">
+                <tr>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>T and P</td>
+                </tr>
+                <tr>
+                  <td>T and P</td>
+                </tr>
+                <tr>
+                  <td>Theory</td>
+                </tr>
+                <tr>
+                  <td>T and P</td>
+                </tr>
+                <tr>
+                  <td>T and P</td>
+                </tr>
+                <tr>
+                  <td>Theory</td>
+                </tr>
+              </table> </td>
+        </tr>
+    </table>
+</body>
+</html>
