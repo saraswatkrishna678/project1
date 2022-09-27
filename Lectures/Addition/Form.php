@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <form  action="../Lectures/Data.php" method="post">
+    <form  action="Data.php" method="post">
       <table>
         <tr>
           <!-- <td><label>Enter your name</label></td> -->
